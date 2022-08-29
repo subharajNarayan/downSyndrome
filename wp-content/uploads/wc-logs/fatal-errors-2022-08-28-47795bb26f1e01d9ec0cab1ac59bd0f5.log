@@ -1,0 +1,294 @@
+2022-08-28T10:34:01+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:34:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:35:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:36:55+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:38:27+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:39:53+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:49:54+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:52:40+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T10:53:22+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T13:18:05+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T13:18:16+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T13:18:18+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T13:18:34+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
+2022-08-28T13:19:23+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_total() on null in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php:173
+Stack trace:
+#0 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\templates\parts\header-mobile.php(23): kunco_get_cart_contents()
+#1 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#3 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#4 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\theme-hook.php(235): get_template_part('templates/parts...', 'mobile')
+#5 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(307): kunco_header_mobile('')
+#6 C:\xampp\htdocs\downSyndromeNGO\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\downSyndromeNGO\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\header-v3.php(39): do_action('kunco_header_mo...')
+#9 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#11 C:\xampp\htdocs\downSyndromeNGO\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\404.php(11): get_header('v3')
+#13 C:\xampp\htdocs\downSyndromeNGO\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\downSyndromeNGO\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\downSyndromeNGO\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\downSyndromeNGO\wp-content\themes\kunco\includes\woocommerce\functions.php on line 173
+
